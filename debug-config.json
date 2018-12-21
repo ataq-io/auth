@@ -1,0 +1,7 @@
+{
+  "debug": true,
+  "port": 3000,
+  "serviceName": "auth",
+  "logFile": "authLogFile.log",
+  "errorFile": "authErrorFile.log"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ataq-auth",
+  "version": "0.0.0",
+  "description": "Authentication service for the ataq.io application.",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node ./index.js",
+    "deploy": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ataq-io/auth.git"
+  },
+  "author": "Grant Broadwater",
+  "license": "SEE LICENSE IN nil",
+  "bugs": {
+    "url": "https://github.com/ataq-io/auth/issues"
+  },
+  "homepage": "https://github.com/ataq-io/auth#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "minimist": "^1.2.0",
+    "morgan": "^1.9.1"
+  }
+}
